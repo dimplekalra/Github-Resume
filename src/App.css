@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+
+html body{
+  font-family: 'Ubuntu', sans-serif;
+}
+.App {
+  text-align: center;
+  overflow:hidden;
+  background: #F7F8FB;
+}
+.App-body{
+  margin-bottom: calc(100% - 92%);
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.center-block{
+  float: none;
+  margin: auto;
+  background: #fff;
+  padding: 6% 5% !important;
+  text-align: left;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
+  
+}
+
+.Resume-title{
+  font-size: 50px;
+  padding:1.4em;
+  font-weight: bold;
+  color: #424242;
+}
+.Form-section{
+  background: #fff;
+  box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.30);
+  padding: 60px 80px;
+  text-align: left;
+  z-index: 1;
+  position: relative;
+}
+.Form-section p{
+  font-size: 28px;
+  font-weight: bold;
+  color: #424242;
+}
+.Form-section .Input-box label{
+    width:70%;
+}
+.Form-section .Input-box label input{
+    border:none;
+    border-bottom: 1px solid #D8D8D8;
+    border-radius: 0px;
+    height: 44px;
+    font-size:20px;
+    padding-left:0px;
+}
+.Form-section .Input-box label input:focus, .Form-section .Input-box label input:active, .Form-section .Input-box label input:hover{
+  outline: none;
+  box-shadow: none;
+  background-color: transparent!important;
+  background:transparent!important;
+}
+.Form-section .Search-button{
+    width:30%;
+}
+.Form-section .Search-button input{
+  background: #EC174D;
+  color: #fff;
+  border-radius: 30px;
+  max-width: 268px;
+  width: 100%;
+  padding: 8px;
+  font-size: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30);
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+  left: 10px;
+  top: -5px;
+}
+.User-detail h1{
+    font-size: 40px;
+    color: #434346;
+    margin-bottom: 0px;
+}
+.User-detail h2{
+  font-size: 30px;
+  color:#939393;
+  margin-bottom: 0px;
+  font-weight: normal;
+  font-weight: light;;
+}
+.User-detail .User-website{
+  padding: 25px 0px;
+}
+.User-detail .User-website p{
+  color:#EC174D;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+body .User-detail .User-website a, .Popular-user-repos .panel-title a, .Popular-user-repos .Repo-Description p a{
+  color:#EC174D;
+}
+.User-detail .User-location p{
+  font-size: 20px;
+  color:#434346;
+}
+.User-detail .User-location span{
+  color:#EC174D;
+}
+.User-Languages{
+  padding: 30px 0px;
+}
+.User-Languages h4, .Popular-user-repos h4{
+  color:#424242;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom:15px;
+}
+.User-Languages p{
+  color: #EC174D;
+  font-size:20px;
+}
+.progress-bar{
+  height: relative;
+  height: 20px;
+  width:30px;
+  border-radius: 50px;
+  border:1px solid #333;
+}
+.filler{
+  background: red;
+  height: 100%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+}
+.Repo-start-date{
+  font-size: 20px;
+  color: #939393;
+  font-weight: normal;
+  text-align:right;
+}
+.Repo-start-date time{
+  padding-left:4px;
+}
+.Popular-user-repos .panel-title{
+  font-size: 24px;
+  color:#EC174D;
+}
+.Popular-user-repos .Repo-languages{
+  font-size: 20px;
+  color:#939393;
+}
+.Popular-user-repos .Repo-Description p{
+    font-size: 20px;
+    color: #434346;
+}
+.Popular-user-repos .panel {
+  border-bottom: 1px solid #C3C0C5;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+}
+.footer{
+  background: #fff;
+  padding:22px 15px;
+}
+
+/**********Responsive*********/
+
+@media screen and (max-width: 1200px) {
+  .Form-section .Search-button input {
+    top: 0px;
+    left: 0px;;
+    margin-top: 5px;
+  }
+  .Form-section .Input-box label{
+    width:100%
+  }
+}
